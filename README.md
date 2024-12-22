@@ -7,7 +7,18 @@ Commodities são bens de consumo básicos, geralmente matérias-primas, que são
 
 ### Detalhes do dataset utilizado e Metodologia
 
-A base de dados contém informações das commodities na granulalidade a nível de mês. Os dados fornecidos são o valor das matérias-primas e o percentual de mudanças dos preços.
+A base de dados contém informações das commodities na granulalidade a nível de mês. Os dados disponíveis são o valor das matérias-primas e o percentual de mudanças dos preços. A consulta fornecida, apresentava muitas informações vazias que passaram por um tratamento prévio para não interferirem nas métricas estatísticas.
+ 
+![image](https://github.com/user-attachments/assets/a751df36-d04a-41a8-a51d-771165946678)
+
+Após o ETL, alguns informações foram desconsideradas conforme foi feito o alinhamento do desenvolvimento, o que foi posto como principal foram os dados válidos. 
+
+![image](https://github.com/user-attachments/assets/1973726c-39f5-4def-b5db-681201d194af)
+
+
+
+
+
 
 As ferramentas de visualização como Matplotlib e Seaborn foram essenciais para criar gráficos claros e informativos que destacaram as relações entre os diferentes indicadores.
 Destaquei indicadores-chave que são cruciais para a tomada de decisões estratégicas, utilizando métodos estatísticos robustos para validar minhas descobertas. A capacidade de Pandas para manipulação eficiente de dados e a flexibilidade do NumPy para cálculos complexos foram fundamentais para o sucesso do projeto.
