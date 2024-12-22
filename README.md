@@ -5,13 +5,11 @@ Commodities são bens de consumo básicos, geralmente matérias-primas, que são
 
 À vista disso, as informações das matérias-primas são de interesse de toda a população global e o intuito desse Case é encontrar padrões e tendências nas séries históricas das matérias-primas, aplicando técnicas de análises estatísticas. Como as informações das commodities são públicas, são de simples acesso com os dados fornecidos pelo Governo Federal.
 
+### Detalhes do dataset utilizado e Metodologia
 
-
-
-
-
+A base de dados contém informações das commodities na granulalidade a nível de mês. Os dados fornecidos são o valor das matérias-primas e o percentual de mudanças dos preços.
 
 As ferramentas de visualização como Matplotlib e Seaborn foram essenciais para criar gráficos claros e informativos que destacaram as relações entre os diferentes indicadores.
-
 Destaquei indicadores-chave que são cruciais para a tomada de decisões estratégicas, utilizando métodos estatísticos robustos para validar minhas descobertas. A capacidade de Pandas para manipulação eficiente de dados e a flexibilidade do NumPy para cálculos complexos foram fundamentais para o sucesso do projeto.
+
  
