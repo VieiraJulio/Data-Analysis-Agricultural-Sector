@@ -1,5 +1,5 @@
 
-### Identificadores de Tendências no Setor Agrícola | Análise de dados 
+### Tendências no Setor Agrícola | Análise de dados com Python
 
 ### Objetivo
 
@@ -7,17 +7,27 @@ Commodities são bens de consumo básicos, geralmente matérias-primas, que são
 
 À vista disso, as informações das matérias-primas são de interesse de toda a população global e o intuito desse Case é encontrar padrões e tendências nas séries históricas das matérias-primas, aplicando técnicas de análises estatísticas. Como as informações das commodities são públicas, são de simples acesso com os dados fornecidos pelo Governo Federal.
 
+### Organização do Projeto
+
+```
+├── .gitignore    <- Arquivos e diretórios a serem ignorados pelo Git  
+├── LICENSE       <- Licença de código aberto (MIT)  
+├── README.md     <- README principal para desenvolvedores que utilizam este projeto  
+├── notebooks     <- Cadernos Jupyter contendo análises e experimentos chamado
+        ├── Materiais_de_agricultura.ipynb
+
+├── dados         <- Fonte de dados usados no projeto
+        ├── agricultural_raw_material.csv
+
+├── images        <- imagens usadas no README.
+```
+
 ### Detalhes do dataset utilizado
 
 A base de dados contém informações das commodities na granulalidade a nível de mês. Os dados disponíveis são o valor das matérias-primas e o percentual de mudanças dos preços. A consulta fornecida, apresentava muitas informações vazias que passaram por um tratamento prévio para não interferirem nas métricas estatísticas.
- 
-![image](https://github.com/user-attachments/assets/a751df36-d04a-41a8-a51d-771165946678)
+ Após o ETL, algumas informações foram desconsideradas conforme a análise preditiva, foram usados somente os dados válidos. 
 
-Após o ETL, alguns informações foram desconsideradas conforme foi feito o alinhamento do desenvolvimento, o que foi posto como principal foram os dados válidos. 
-
-![image](https://github.com/user-attachments/assets/1973726c-39f5-4def-b5db-681201d194af)
-
-### Resumo dos Resultados
+### Metodologia e Resumo dos Resultados
 
 Uma das principais vantagens das análises estatísticas é a diversidade e a ampla gama de possibilidades que elas oferecem, aliadas a um alto grau de precisão e confiabilidade. Com base nessas características, o indicador escolhido foi a correlação, que mede a relação entre duas variáveis quantitativas contínuas.
 
@@ -43,15 +53,13 @@ Podemos ver o maior percentual de mudança em mais de 60% para madeira serrada m
 Há outras análises no projeto, que retratam comparativos mais interessantes com um nível de detalhamento maior. 
 Ademais, um dos pilares da estatística é a análise descritiva que trás a distribuição dos dados em quartis, sendo o principal a mediana, também apresentando na visualização, mas também outros outliers que serão analizados em atualizações futuras no desenvolvimento. Portanto, destaquei indicadores-chave que são cruciais para a tomada de decisões estratégicas, utilizando métodos estatísticos robustos para validar minhas descobertas.
 
-### Ferramentas e Metodologia
- - Python
- - As ferramentas de visualização como Matplotlib e Seaborn foram essenciais para criar gráficos claros e informativos que destacaram as relações entre os diferentes indicadores.
- - A capacidade de Pandas para manipulação eficiente de dados e a flexibilidade do NumPy para cálculos complexos foram fundamentais para o sucesso do projeto.
+### Ferramentas
+
+ - As ferramentas de visualização: Matplotlib e Seaborn.
+ - Construção e Cálculos: Pandas e Numpy.
 
 ### Como Reproduzir o Projeto
+
  - Baixar o arquivo ipynb no repositório.
-
-
-
-
- 
+ - Baixar a fonte de dados na pasta Dados.
+   
